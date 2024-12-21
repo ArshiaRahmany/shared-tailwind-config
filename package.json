@@ -1,9 +1,16 @@
 {
   "name": "@arshia.rahmany/shared-tailwind-config",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "main": "tailwind.config.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "clean": "rm -rf dist && mkdir dist",
+    "build:scss": "sass src/index.scss dist/tmp.css",
+    "build:css": "postcss dist/tmp.css -o dist/index.css",
+    "build:clean": "npm run clean",
+    "build": "npm run build:clean && npm run build:scss && npm run build:css && rm -f dist/tmp.css dist/tmp.css.map",
+    "watch:scss": "sass --watch src/index.scss dist/tmp.css",
+    "watch:css": "postcss dist/tmp.css -o dist/index.css --watch",
+    "watch": "npm run watch:scss & npm run watch:css"
   },
   "keywords": [],
   "author": "Arshia Rahmany",
@@ -11,5 +18,8 @@
   "description": "",
   "peerDependencies": {
     "tailwindcss": "^3.4.16"
+  },
+  "dependencies": {
+    "sass": "^1.83.0"
   }
 }

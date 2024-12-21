@@ -1,0 +1,53 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+@layer components {
+  .main-container {
+    @apply mt-10 text-3xl mx-auto max-w-6xl flex flex-col gap-6;
+  }
+  .intro-sizes-section {
+    @apply flex gap-8 justify-between items-center;
+  }
+  .component-container {
+    @apply flex justify-between items-center;
+  }
+  .btn-primary {
+    @apply bg-riton-primary text-white hover:bg-riton-primary-hover;
+  }
+  .btn-secondary {
+    @apply bg-riton-secondary text-gray-700 hover:bg-riton-secondary-hover;
+  }
+  .btn-gray {
+    @apply bg-gray-500 text-white hover:bg-gray-600;
+  }
+  .btn-outline {
+    @apply border border-blue-500 text-blue-500 hover:bg-blue-500 hover:text-white;
+  }
+  .btn-text {
+    @apply text-blue-500 hover:text-blue-600;
+  }
+  .btn-success {
+    @apply bg-riton-success text-white hover:bg-riton-success-hover;
+  }
+  .btn-success-secondary {
+    @apply bg-green-200 text-green-700 hover:bg-green-300;
+  }
+  .btn-danger {
+    @apply bg-riton-danger text-white hover:bg-riton-danger-hover;
+  }
+  .btn-danger-secondary {
+    @apply bg-red-200 text-red-700 hover:bg-red-300;
+  }
+  .btn-warning {
+    @apply bg-riton-warning text-white hover:bg-riton-warning-hover;
+  }
+  .btn-warning-secondary {
+    @apply bg-yellow-200 text-yellow-700 hover:bg-yellow-300;
+  }
+}
+
+/*# sourceMappingURL=tmp.css.map */
