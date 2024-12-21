@@ -1,6 +1,6 @@
 {
   "name": "@arshia.rahmany/shared-tailwind-config",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "main": "tailwind.config.js",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
@@ -17,9 +17,11 @@
   "license": "ISC",
   "description": "",
   "peerDependencies": {
-    "tailwindcss": "^3.4.16"
+    "tailwindcss": "^3.4.17"
   },
   "dependencies": {
+    "autoprefixer": "^10.4.20",
+    "postcss": "^8.4.49",
     "sass": "^1.83.0"
   }
 }
