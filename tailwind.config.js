@@ -14,6 +14,8 @@ module.exports.theme = {
       "riton-secondary": "#48A4EA1A",
       "riton-gray": "#F4F4F5",
       "riton-gray-hover": "#EEEEEF",
+      "riton-gray-chips":"#5D5F69",
+      "riton-gray-text":"#272937",
       "riton-secondary-hover": "#48A4EA26",
       "riton-success": "#43A824",
       "riton-success-hover": "#3C9820",
@@ -27,6 +29,7 @@ module.exports.theme = {
       "riton-warning-hover": "#E68600",
       "riton-warning-secondary": "#FF95000D",
       "riton-warning-secondary-hover": "#FF950014",
+      "riton-info":"#1991FF",
     },
   },
 };
