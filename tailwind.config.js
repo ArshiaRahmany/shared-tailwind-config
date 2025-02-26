@@ -9,7 +9,6 @@ module.exports.safelist = [
 module.exports.theme = {
   extend: {
     colors: {
-
       "riton-primary": "#48A4EA",
       "riton-primary-hover": "#4194D3",
       "riton-secondary": "#48A4EA1A",

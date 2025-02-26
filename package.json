@@ -1,6 +1,6 @@
 {
   "name": "@arshia.rahmany/shared-tailwind-config",
-  "version": "1.0.7",
+  "version": "1.0.8",
   "main": "tailwind.config.js",
   "scripts": {
     "clean": "rm -rf dist && mkdir dist",
