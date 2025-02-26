@@ -9,6 +9,7 @@ module.exports.safelist = [
 module.exports.theme = {
   extend: {
     colors: {
+
       "riton-primary": "#48A4EA",
       "riton-primary-hover": "#4194D3",
       "riton-secondary": "#48A4EA1A",
@@ -30,6 +31,11 @@ module.exports.theme = {
       "riton-warning-secondary": "#FF95000D",
       "riton-warning-secondary-hover": "#FF950014",
       "riton-info":"#1991FF",
+      "riton-border-gray-avatar":"#21212114",
+      "riton-default-avatar-group-text-color":"#B4B4B9",
+      "riton-dialog-header-title-text":"#272937",
+      "riton-checkbox-box-not-checked-border":"#E5E5E7",
+      "riton-checkbox-box-not-checked-bg":"#F8F8F9"
     },
   },
 };
